@@ -17,10 +17,5 @@ def letterCounter(word, letter):
 
 
 word = input('Please type a word: ')
-try:
-    inputWord = str(word)
-except:
-    print('This is not a word')
-    exit()
 letter = input('Please type a letter: ')
 print(letterCounter(word, letter))
