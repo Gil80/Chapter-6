@@ -23,4 +23,4 @@ except:
     print('This is not a word')
     exit()
 letter = input('Please type a letter: ')
-print(letterCounter)
+print(letterCounter(word, letter))
