@@ -10,8 +10,8 @@ print(count)'''
 
 def letterCounter(word, letter):
     count = 0
-    for letter in word:
-        if word == letter:
+    for i in word:
+        if i == letter:
             count = count + 1
     return count
 
